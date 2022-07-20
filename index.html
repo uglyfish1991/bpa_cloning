@@ -6,38 +6,76 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Blue Planet Aquarium</title>
+    <title>Home Page | Blue Planet Aquarium</title>
 </head>
 
 <body>
     <header>
         <div>
-        <div class="social">
-            <span>Opens Soon:</span>
-            <span>Social Icons</span>
+            <div class="social">
+                <span><b>Open now:</b> 10am - 5pm</span>
+                <span>Social Icons</span>
+            </div>
+
+            <svg id="wave" style="transform:rotate(180deg); transition: 0.3s" viewBox="0 0 1440 130" version="1.1"
+                xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+                        <stop stop-color="rgba(4, 15, 44, 0.65)" offset="0%"></stop>
+                        <stop stop-color="rgba(4, 15, 44, 0.65)" offset="100%"></stop>
+                    </linearGradient>
+                </defs>
+                <path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)"
+                    d="M0,52L80,60.7C160,69,320,87,480,80.2C640,74,800,43,960,45.5C1120,48,1280,82,1440,91C1600,100,1760,82,1920,82.3C2080,82,2240,100,2400,104C2560,108,2720,100,2880,84.5C3040,69,3200,48,3360,52C3520,56,3680,87,3840,91C4000,95,4160,74,4320,58.5C4480,43,4640,35,4800,39C4960,43,5120,61,5280,60.7C5440,61,5600,43,5760,43.3C5920,43,6080,61,6240,67.2C6400,74,6560,69,6720,69.3C6880,69,7040,74,7200,67.2C7360,61,7520,43,7680,36.8C7840,30,8000,35,8160,49.8C8320,65,8480,91,8640,95.3C8800,100,8960,82,9120,69.3C9280,56,9440,48,9600,56.3C9760,65,9920,91,10080,101.8C10240,113,10400,108,10560,95.3C10720,82,10880,61,11040,52C11200,43,11360,48,11440,49.8L11520,52L11520,130L11440,130C11360,130,11200,130,11040,130C10880,130,10720,130,10560,130C10400,130,10240,130,10080,130C9920,130,9760,130,9600,130C9440,130,9280,130,9120,130C8960,130,8800,130,8640,130C8480,130,8320,130,8160,130C8000,130,7840,130,7680,130C7520,130,7360,130,7200,130C7040,130,6880,130,6720,130C6560,130,6400,130,6240,130C6080,130,5920,130,5760,130C5600,130,5440,130,5280,130C5120,130,4960,130,4800,130C4640,130,4480,130,4320,130C4160,130,4000,130,3840,130C3680,130,3520,130,3360,130C3200,130,3040,130,2880,130C2720,130,2560,130,2400,130C2240,130,2080,130,1920,130C1760,130,1600,130,1440,130C1280,130,1120,130,960,130C800,130,640,130,480,130C320,130,160,130,80,130L0,130Z">
+                </path>
+            </svg>
+            <nav>
+                <a href="#">Visitor Info</a>
+                <a href="#">Discover</a>
+                <a href="#">Events & Experiences</a>
+                <a href="#">Schools & Groups</a>
+                <button>Book Tickets</button>
+            </nav>
         </div>
-        <nav>
-            <a href="#">Link</a>
-            <a href="#">Link</a>
-            <a href="#">Link</a>
-            <a href="#">Link</a>
-            <a href="#">Link</a>
-            <button>Book Tickets</button>
-        </nav>
-    </div>
-<div class="welcome">
-    <div>
-    Welcome to<br>
-    Blue Planet Aquarium
-</div>
-<div>
-    <button>1</button><br>
-    <button>1</button><br>
-    <button>1</button><br>
-</div>
-</div>
+        <div class="welcome">
+            <div class="welcomemessage">
+                <span class="wel">Welcome to</span>
+                Blue Planet Aquarium
+            </div>
+            <div class="welcomebuttons">
+                <button class="book">Book&nbsp;Tickets</button><br>
+                <button class="welcomeinner">Getting&nbsp;Here</button><br>
+                <button class="welcomeinner">Dive&nbsp;With&nbsp;Sharks</button><br>
+            </div>
+        </div>
 
     </header>
+    <section>
+        <div class="topcontent">
+            <div class="top1">Our Exhibits</div>
+            <div class="top2">Meet the animals</div>
+            <div class="top3">Underwater Tunnel</div>
+            <div class="top4">Birthday Parties</div>
+        </div>
+    </section>
+    <section>
+        <div class="shark"></div>     
+    </section>
+    <div class="divebox"><span>Dive with sharks</span><br>Dive with huge sharks in our 3.8million litre tropical tank!
+    </div>
+    <section>
+        <div class="midcontent">
+            <div class="mid1"><img src='imgs/lionfish.webp'>Did you know?<br>
+            <p>It is thought that Lionfish get their name because the venomous spines along their body spike outwards like the mane of a lion! </p>
+        <a href="#">Learn more about our Lionfish!</a></div>
+            <div class="mid2">What's On</div>
+            <div class="mid3">Meet the dive team</div>
+            <div class="mid4">School trips!</div>
+        </div>
+    </section>
+    <section>
+        <div class="turtle"></div>     
+    </section>
 </body>
 
 </html>
