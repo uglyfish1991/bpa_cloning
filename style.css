@@ -18,7 +18,7 @@ header{
     flex-direction: column;
     justify-content: space-between;
     border-bottom: 70px solid transparent;
-    border-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAyNC4xLjEsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiDQoJIHZpZXdCb3g9IjAgMCAxMzY2IDY3LjciIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDEzNjYgNjcuNzsiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPHN0eWxlIHR5cGU9InRleHQvY3NzIj4NCgkuc3Qwe2ZpbGwtcnVsZTpldmVub2RkO2NsaXAtcnVsZTpldmVub2RkO2ZpbGw6IzAxOTBFRjt9DQoJLnN0MXtmaWxsLXJ1bGU6ZXZlbm9kZDtjbGlwLXJ1bGU6ZXZlbm9kZDtmaWxsOiNGRkZGRkY7fQ0KPC9zdHlsZT4NCjxwYXRoIGlkPSJ3YXZlLWJhbm5lci1ib3R0b21fMV8iIGNsYXNzPSJzdDAiIGQ9Ik0wLDQ4LjRDMjk5LjQtNjksNTQzLDY4LjQsODYzLDM0LjZzNTAzLTEwLjgsNTAzLTEwLjh2NDIuOUgwVjQ4LjR6Ii8+DQo8cGF0aCBpZD0id2F2ZS1iYW5uZXItYm90dG9tIiBjbGFzcz0ic3QxIiBkPSJNMCw1NS44YzI5OS40LTc2LjQsNTQzLDEzLjEsODYzLTlzNTAzLTcsNTAzLTd2MjcuOUgwVjU1Ljh6Ii8+DQo8L3N2Zz4NCg==) 70 stretch;
+    border-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAyNC4xLjEsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiDQoJIHZpZXdCb3g9IjAgMCAxMzY2IDY3LjciIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDEzNjYgNjcuNzsiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPHN0eWxlIHR5cGU9InRleHQvY3NzIj4NCgkuc3Qwe2ZpbGwtcnVsZTpldmVub2RkO2NsaXAtcnVsZTpldmVub2RkO2ZpbGw6IzAxOTBFRjt9DQoJLnN0MXtmaWxsLXJ1bGU6ZXZlbm9kZDtjbGlwLXJ1bGU6ZXZlbm9kZDtmaWxsOiNGRkZGRkY7fQ0KPC9zdHlsZT4NCjxwYXRoIGlkPSJ3YXZlLWJhbm5lci1ib3R0b21fMV8iIGNsYXNzPSJzdDAiIGQ9Ik0wLDQ4LjRDMjk5LjQtNjksNTQzLDY4LjQsODYzLDM0LjZzNTAzLTEwLjgsNTAzLTEwLjh2NDIuOUgwVjQ4LjR6Ii8+DQo8cGF0aCBpZD0id2F2ZS1iYW5uZXItYm90dG9tIiBjbGFzcz0ic3QxIiBkPSJNMCw1NS44YzI5OS40LTc2LjQsNTQzLDEzLjEsODYzLTlzNTAzLTcsNTAzLTd2MjcuOUgwVjU1Ljh6Ii8+DQo8L3N2Zz4NCg==) 100 stretch;
 }
 
 .social{
@@ -29,14 +29,13 @@ header{
     padding: 0.5% 20% 0.5% 20%;
     font-family: 'Nunito Sans', sans-serif;
     text-transform: uppercase;
-    font-size: 0.6em;
+    font-size: 0.8em;
 }
 
 nav{
     box-sizing: border-box;
     color: white;
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 0.7rem;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -50,6 +49,7 @@ nav{
 }
 
 nav a{
+    font-size: 1rem;
     color: white;
     text-decoration: none;
     margin-right: 1%;
@@ -86,7 +86,7 @@ nav button{
 
 .welcomemessage{
     align-self: flex-end;
-    font-size: 2.9rem;
+    font-size: 4rem;
 }
 
 .welcomebuttons{
@@ -95,8 +95,8 @@ nav button{
 }
 .welcomebuttons button{
     color: white;
-    padding: 5%;
     border:none;
+    padding: 17px 0px 17px 0px;
     border-radius: 20px;
     margin-bottom: 1%;
     min-width:16vw;
@@ -106,14 +106,14 @@ nav button{
     background-color: #20c997;
     font-family:'Poppins', sans-serif;    
     font-weight: 700;
-    font-size: 0.8em;
+    font-size: 1em;
 }
 
 .welcomeinner{
     background-color: #000000;
     font-family: 'Nunito Sans', sans-serif;
     text-transform: uppercase;
-    font-size: 0.6rem;
+    font-size: 0.9rem;
     font-weight: 600;
 }
 
