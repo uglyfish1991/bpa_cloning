@@ -519,3 +519,89 @@ footer i{
    }
 }
 
+@media (max-width: 485px){
+    header{
+        background-size: auto;
+        border-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAyNC4xLjEsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiDQoJIHZpZXdCb3g9IjAgMCAxMzY2IDY3LjciIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDEzNjYgNjcuNzsiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPHN0eWxlIHR5cGU9InRleHQvY3NzIj4NCgkuc3Qwe2ZpbGwtcnVsZTpldmVub2RkO2NsaXAtcnVsZTpldmVub2RkO2ZpbGw6IzAxOTBFRjt9DQoJLnN0MXtmaWxsLXJ1bGU6ZXZlbm9kZDtjbGlwLXJ1bGU6ZXZlbm9kZDtmaWxsOiNGRkZGRkY7fQ0KPC9zdHlsZT4NCjxwYXRoIGlkPSJ3YXZlLWJhbm5lci1ib3R0b21fMV8iIGNsYXNzPSJzdDAiIGQ9Ik0wLDQ4LjRDMjk5LjQtNjksNTQzLDY4LjQsODYzLDM0LjZzNTAzLTEwLjgsNTAzLTEwLjh2NDIuOUgwVjQ4LjR6Ii8+DQo8cGF0aCBpZD0id2F2ZS1iYW5uZXItYm90dG9tIiBjbGFzcz0ic3QxIiBkPSJNMCw1NS44YzI5OS40LTc2LjQsNTQzLDEzLjEsODYzLTlzNTAzLTcsNTAzLTd2MjcuOUgwVjU1Ljh6Ii8+DQo8L3N2Zz4NCg==)70;
+    }
+    
+    .social i{
+        display: none;
+    }
+
+    .welcome{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .welcomemessage{
+        font-size: 2rem;
+    }
+
+    .welcomebuttons button{
+        min-width:70vw;
+    }
+
+    .topcontent, .midcontent{
+        width:99%;
+    }
+
+    .topcontent div, .midcontent div{
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .shark{
+        height: 26vh;
+    }
+
+    .divebox{
+        left: 3vw;
+        width: 90vw;
+        font-size: 1.2rem;
+    }
+
+    .divebox span{
+        font-size: 1rem;
+    }
+
+    .mid1{
+        padding: 10%;
+        box-sizing: border-box;
+    }
+
+    .mid1 img{
+        height: 50%;
+        width: 25%;
+    }
+
+    .mid1 p, .mid1 a {
+        font-size: 0.9rem;
+    }
+
+    .turtle p{
+        width: 90%;
+        font-size: 2rem;
+        padding:1%;
+        text-align: center;
+        padding-top: 15%;
+    }
+
+    .blogsinner{
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .blog1, .blog2{
+        width: 100%;
+    }
+
+    .blogs button{
+        width: 80%;
+    }
+
+    .newsletter p{
+        font-size: 1.3rem;
+    }
+
+}
