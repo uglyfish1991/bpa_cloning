@@ -66,9 +66,9 @@ nav button{
     font-weight: 700;
     font-size: 1em;
     padding: 8px;
-    width: 13%;
+    width: 190px;
     border:none;
-    border-radius: 15px;
+    border-radius: 30px;
 }
 
 .welcome{
@@ -123,12 +123,23 @@ nav button{
     font-size: 1em;
 }
 
+.book:hover{
+    background-color:#5af3c5;
+    transition-duration: 0.5s;
+}
+
 .welcomeinner{
     background-color: #000000;
     font-family: 'Nunito Sans', sans-serif;
     text-transform: uppercase;
     font-size: 0.9rem;
     font-weight: 600;
+}
+
+.welcomeinner:hover{
+    color: grey;
+    transition-duration: 0.5s;
+    cursor: pointer;
 }
 
 .topcontent{
@@ -148,10 +159,11 @@ nav button{
     padding: 1%;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 110%;
     color: white;
     font-size: 2rem;
     font-family:'Poppins', sans-serif;
+    transition-duration: 0.5s;
 }
 
 .top1,.top4{
@@ -165,6 +177,12 @@ nav button{
 .top1{
     background-image: url('imgs/top1bg.webp');
 }
+
+.top1:hover, .top2:hover, .top3:hover, .top4:hover, .mid2:hover, .mid3:hover, .mid4:hover{
+    background-size: 100%;
+    transition-duration: 0.5s;
+}
+
 .top2{
     background-image: url('imgs/top2bg.webp');
 }
@@ -229,10 +247,11 @@ nav button{
     padding: 1%;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 110%;
     color: white;
     font-size: 2rem;
     font-family:'Poppins', sans-serif;
+    transition-duration: 0.5s;
 }
 
 .mid1,.mid4{
@@ -305,6 +324,11 @@ nav button{
     margin-bottom: 1%;
     font-size: 1rem;
     font-family:'Poppins', sans-serif;
+}
+
+.turtle button:hover, .blogs button:hover{
+    background-color:#5af3c5;
+    cursor: pointer;
 }
 
 .blogs{
@@ -402,7 +426,8 @@ footer{
     height:110vh;
     background-color: #002754;
     background-image: url('imgs/footerbg.jpg');
-    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -475,3 +500,22 @@ footer i{
     color: #20c997;
     padding-bottom: 10px;
 }
+
+@media (max-width:1500px){
+   .welcome{
+    width:90%;
+   }
+
+   .divebox{
+    width: 25vw;
+   }
+
+   .topcontent, .midcontent{
+    width:80%;
+   }
+
+   .turtle p{
+    width:25%;
+   }
+}
+
