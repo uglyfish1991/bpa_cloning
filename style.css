@@ -553,11 +553,17 @@ footer i{
 
     .shark{
         height: 26vh;
+        background-size: auto;
+    }
+
+    .midcontent{
+        margin-top: -1vh;
     }
 
     .divebox{
         left: 3vw;
         width: 90vw;
+        top:-15vh;
         font-size: 1.2rem;
     }
 
@@ -577,6 +583,10 @@ footer i{
 
     .mid1 p, .mid1 a {
         font-size: 0.9rem;
+    }
+
+    .turtle{
+        background-size: auto;
     }
 
     .turtle p{
@@ -600,8 +610,35 @@ footer i{
         width: 80%;
     }
 
+    .newsletter{
+        height:30vh;
+        background-size: auto;
+    }
+
     .newsletter p{
-        font-size: 1.3rem;
+        font-size: 1.2rem;
+    }
+
+    .flexy{
+        flex-direction: column;
+    }
+    
+    footer{
+        background-size: auto;
+        min-height: 110vh;
+        padding-left: 5%;
+    }
+
+    .footerinner, .footerlinksinner{
+        width: 80%;
+    }
+
+    .footerlinksinner div, .footerinner div{
+        margin-bottom: 0%;
+    }
+
+    .footerlinks{
+        flex-direction: column;
     }
 
 }

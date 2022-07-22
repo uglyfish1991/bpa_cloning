@@ -3,16 +3,15 @@
 ---
 Comparison: https://www.blueplanetaquarium.com/
 ---
-** Current WIP - not yet responsive **
+** Current WIP - not yet fully responsive **
 ---
 To do:
 1. ~Finish footer section~
 2. Add mobile + tablet responsiveness
-3. Add pseudo classes - hovers etc
-4. Comment out CSS for clarity
+3. ~Add pseudo classes - hovers etc~
 --- 
 Media Queries To do:
-1. Find breakpoints
+1. Find breakpoints 
 2. Book now button / menu toggle
 3. Footer links
 4. Divebox
