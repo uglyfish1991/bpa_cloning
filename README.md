@@ -1,5 +1,4 @@
 # Website Cloning Project 
-## For Code Nation Master 40 Bootcamp
 ---
 Comparison: https://www.blueplanetaquarium.com/
 ---
